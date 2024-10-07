@@ -1,6 +1,7 @@
 name: Periodic Style Checks
 
 on:
+  - push
   schedule:
     - cron: "0 1 * * 4" # Runs at 01:00 AM on every Wednesday
 
